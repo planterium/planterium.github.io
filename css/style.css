@@ -1132,6 +1132,7 @@ footer .footer-bottom{
     .subtitle{
         font-size: 11px;
         letter-spacing: 1px;
+        padding-left: 1px;
     }
 
     .arrow{
