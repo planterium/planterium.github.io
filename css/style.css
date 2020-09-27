@@ -231,6 +231,11 @@ section.sec1{
     /* background-color: aqua; */
 }
 
+.faqqq{
+        letter-spacing: 35px;
+        padding-left: 35px;
+    }
+
 .sec1 span{
     display: block;
     width: 30%;
@@ -979,6 +984,7 @@ footer .footer-bottom{
 
     .kataloggg{
         letter-spacing: 25px;
+        padding-left: 25px;
     }
 
     .content h1{
@@ -1132,6 +1138,11 @@ footer .footer-bottom{
     .kataloggg{
         letter-spacing: 10px;
         padding-left: 10px;
+    }
+    
+    .faqqq{
+        letter-spacing: 20px;
+        padding-left: 20px;
     }
     
     .subtitle{
