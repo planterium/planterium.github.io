@@ -1369,10 +1369,13 @@ footer .footer-bottom{
         margin: 0 0px;
         text-align: justify;
     }
+<<<<<<< HEAD
 
     .column {
         -ms-flex: 100%;
         flex: 100%;
         max-width: 100%;
       }
+=======
+>>>>>>> 379ce5152f44a6261cdd4e7d58eb9f40a016449a
 }
