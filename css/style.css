@@ -193,7 +193,7 @@ nav ul li a.active{
     transform: rotate(-45deg) translate(.8px, -.1px);
 }
 
-#home,#offmoss,#lifemoss,#dormantmoss,#shop{
+#home,#planterium_id,#offmoss,#lifemoss,#dormantmoss,#shop{
     width: 100vw;
     height: 100vh;
 }
@@ -263,7 +263,7 @@ section.sec1{
     background-color: #303f4d;
 }
 
-#lifemoss{
+#planterium_id,#lifemoss{
     background-color: grey;   
 }
 
@@ -853,6 +853,7 @@ footer .footer-bottom{
         width: 81%;
     }
 
+    #planterium_id,
     #offmoss,
     #lifemoss,
     #dormantmoss,
@@ -860,6 +861,7 @@ footer .footer-bottom{
         height: 50vh;
     }
 
+    #planterium_id .box-moss .figure img,
     #offmoss .box-moss .figure img,
     #lifemoss .box-moss .figure img{
         display: flex;
@@ -940,11 +942,11 @@ footer .footer-bottom{
         background-color: rgba(0, 0, 0, 0);
     }
     
-    #lifemoss{
+    #planterium_id,#lifemoss{
         background-color: rgba(0, 0, 0, 0);
     }
 
-
+    #planterium_id,
     #offmoss,
     #lifemoss,
     #dormantmoss{
@@ -961,10 +963,12 @@ footer .footer-bottom{
         flex-direction: column;
     }
 
+    #planterium_id .box-moss,
     #lifemoss .box-moss{
         flex-direction: column-reverse;
     }
 
+    #planterium_id .box-moss .figure img,
     #offmoss .box-moss .figure img,
     #lifemoss .box-moss .figure img{
         display: flex;
@@ -991,6 +995,7 @@ footer .footer-bottom{
         background-color: #303f4d;
     }
 
+    #planterium_id .box-moss .content,
     #lifemoss .box-moss .content{
         background-color: #3e3e3e;
     }
@@ -1232,11 +1237,13 @@ footer .footer-bottom{
         background-color: rgba(0, 0, 0, 0);
     }
     
+    #planterium_id,
     #lifemoss{
         background-color: rgba(0, 0, 0, 0);
     }
 
 
+    #planterium_id,
     #offmoss,
     #lifemoss,
     #dormantmoss{
@@ -1253,10 +1260,12 @@ footer .footer-bottom{
         flex-direction: column;
     }
 
+    #planterium_id .box-moss,
     #lifemoss .box-moss{
         flex-direction: column-reverse;
     }
 
+    #planterium_id .box-moss .figure img,
     #offmoss .box-moss .figure img,
     #lifemoss .box-moss .figure img{
         display: flex;
@@ -1283,6 +1292,7 @@ footer .footer-bottom{
         background-color: #303f4d;
     }
 
+    #planterium_id .box-moss .content
     #lifemoss .box-moss .content{
         background-color: #3e3e3e;
     }
