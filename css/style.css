@@ -560,6 +560,46 @@ h6{
     display: block;
 }
 
+/* life moss faq */
+
+.row .column img{
+    width: 100%;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+  
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 24%;
+    padding: 0 4px;
+}
+  
+.column img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+.item-question{
+    margin-top: 8px;
+    padding: 10px;
+    background-color: #eeeeee;
+    font-family: 'Josefin Sans',sans-serif;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.item-question p{
+    margin-top: 10px;
+}
+
+
 /* faq */
 .faq-container{
     width: 90%;
@@ -979,6 +1019,7 @@ footer .footer-bottom{
 
     .kataloggg{
         letter-spacing: 25px;
+        padding-left: 25px;
     }
 
     .content h1{
@@ -1017,6 +1058,12 @@ footer .footer-bottom{
     .faq-container{
         width: 100%;
     }
+
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+      }
 
 
     /* ===================== */
@@ -1125,11 +1172,24 @@ footer .footer-bottom{
         font-size: 23px;
         letter-spacing: 2px;
         padding-top: 0rem;
+        margin-top: 0px;
+        padding-left: 2px;
+    }
+    
+    .kataloggg{
+        letter-spacing: 10px;
+        padding-left: 10px;
+    }
+    
+    .faqqq{
+        letter-spacing: 20px;
+        padding-left: 20px;
     }
     
     .subtitle{
         font-size: 11px;
         letter-spacing: 1px;
+        padding-left: 1px;
     }
 
     .arrow{
@@ -1309,4 +1369,10 @@ footer .footer-bottom{
         margin: 0 0px;
         text-align: justify;
     }
+
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+      }
 }
