@@ -1222,6 +1222,18 @@ footer .footer-bottom{
         padding: 4.3rem;
     }
 
+    .row-katalog-list {
+        flex-direction: column;
+    }
+
+    .katalog-container-list {
+        max-width: 100%;
+        -ms-flex: 100%; 
+        flex: 100%;
+        /* max-width: 32%; */
+        padding: 7px 0;
+      }
+
     .box-product{
         margin: 16px;
     }
