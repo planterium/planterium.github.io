@@ -1588,6 +1588,12 @@ footer .footer-bottom{
         width: 30px;
         margin: 5px;
     }
+
+    .button-tokped{
+        width: 180px;
+    }
+
+
     /* faq */
     .faq-container{
         width: 100%;
