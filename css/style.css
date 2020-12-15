@@ -746,9 +746,9 @@ h6{
 
 .katalog-container-list {
     position: relative;
-    max-width: 30%;
+    /* max-width: 30%;
     -ms-flex: 33%; 
-    flex: 33%;
+    flex: 33%; */
     /* max-width: 32%; */
     /* padding: 0 7px; */
     /* margin: 0 15px 15px 0; */
@@ -845,14 +845,15 @@ h6{
     margin-top: 30px;
     justify-content: center;
 }
-  /*
+
 .column-katalog-list {
     -ms-flex: 33%; 
     flex: 33%;
-    max-width: 32%;
-    padding: 0 7px;
+    max-width:33%;
+    /* padding: 0 7px; */
 }
 
+/*
 .column-katalog-list img{
     width: 100%;
 }
