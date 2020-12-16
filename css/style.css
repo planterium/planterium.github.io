@@ -1106,7 +1106,7 @@ footer .footer-bottom{
     }
 
     nav.black{
-        height: 165px;
+        height: 100px;
     }
 
     nav .nav-container{
@@ -1299,6 +1299,12 @@ footer .footer-bottom{
         flex-direction: column;
     }
 
+    .column-katalog-list {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+
     .katalog-container-list {
         max-width: 100%;
         -ms-flex: 100%; 
@@ -1361,7 +1367,7 @@ footer .footer-bottom{
     }
     
     nav.black{
-        height: 95px;
+        height: 75px;
     }
     
     nav.black .logo img{
@@ -1381,10 +1387,10 @@ footer .footer-bottom{
         right: 0;
         top : 0;
         flex-direction: column;
-        height: 90vh;
+        height: 70vh;
         justify-content: space-evenly; 
         align-items: center;
-        z-index: -1;
+        z-index: 1;
         background: rgba(14, 10, 10, 0.85);
         transform: translateY(-100%);
         transition: all .5s;
@@ -1392,7 +1398,7 @@ footer .footer-bottom{
     }
 
     nav ul.slide{
-        margin-top: 95px;
+        margin-top: 75px;
         transform: translateY(0);
         opacity: 1;
         z-index: 10;
@@ -1636,4 +1642,6 @@ footer .footer-bottom{
         flex: 100%;
         max-width: 100%;
       }
+    
+    
 }
