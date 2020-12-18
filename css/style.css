@@ -532,6 +532,7 @@ h6{
     /* padding: 1rem; */
 }
 
+.katalog-container-list1 .caption,
 .katalog-container-list .caption{
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
@@ -539,6 +540,7 @@ h6{
     padding: 10px 10px;
 }
 
+.katalog-container-list1 .caption h5,
 .katalog-container-list .caption h5{
     padding-top: 10px;
 }
@@ -744,9 +746,23 @@ h6{
     margin-right: 0;
 }
 
+.katalog-container-list1 {
+    position: relative;
+    max-width: 31.5%;
+    -ms-flex: 33%; 
+    flex: 33%;
+    /* max-width: 32%; */
+    /* padding: 0 7px; */
+    /* margin: 0 15px 15px 0; */
+    margin-top: 16px;
+    margin-right: 8px;
+    margin-left: 8px;
+    box-shadow: 3px 8px .8rem rgba(0, 0, 0, 0.5);
+  }
+
 .katalog-container-list {
     position: relative;
-    /* max-width: 30%;
+    /* max-width: 31.5%;
     -ms-flex: 33%; 
     flex: 33%; */
     /* max-width: 32%; */
@@ -799,12 +815,13 @@ h6{
     height: 0;
     transition: .5s ease;
   }
-
+  .katalog-container-list1:hover .katalog-overlay,
 .katalog-container-list:hover .katalog-overlay {
     height: 100%;
     cursor: pointer;
   }
 
+.katalog-container-list1:hover .katalog-overlay2,  
 .katalog-container-list:hover .katalog-overlay2 {
     height: 100%;
     cursor: pointer;
@@ -842,7 +859,7 @@ h6{
     -ms-flex-wrap: wrap; 
     flex-wrap: wrap;
     /* padding: 0 4px; */
-    margin-top: 30px;
+    /* margin-top: 30px; */
     justify-content: center;
 }
 
@@ -1305,7 +1322,7 @@ footer .footer-bottom{
         max-width: 100%;
     }
 
-    .katalog-container-list {
+    .katalog-container-list1,.katalog-container-list {
         max-width: 100%;
         -ms-flex: 100%; 
         flex: 100%;
@@ -1421,7 +1438,7 @@ footer .footer-bottom{
         padding-left: 10px;
     }
 
-    .katalog-container-list {
+    .katalog-container-list1, .katalog-container-list {
         max-width: 100%;
         -ms-flex: 100%; 
         flex: 100%;
