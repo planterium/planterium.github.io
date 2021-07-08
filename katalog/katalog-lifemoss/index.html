@@ -15,34 +15,21 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="text/javascript">
         function pop_up(){
-            // swal({
-            //     className: "swal-modal",
-            //     icon: "info",
-            //     title: "Informasi",
-            //     text: "Life Moss adalah moss yang masih hidup dan butuh perawatan, untuk memastikan anda jadi membeli atau tidak bisa dilihat di penjelasan tentang life moss di link ini",
-            //     button: "Mengerti",
-            //     closeOnClickOutside: false,
-            //     closeOnEsc: false,
-            //     html:'<a href="../../lifemoss">Tentang Life Moss</a> '
-            // })
  
             Swal.fire({
+                allowEscapeKey:'false',
+                allowOutsideClick:'false',
                 title: 'Informasi Penting',
-                // text: 'Life Moss adalah moss yang masih hidup dan butuh perawatan, untuk memastikan anda jadi membeli atau tidak bisa dilihat di penjelasan tentang life moss pada link di bawah ini',
                 imageUrl: 'https://planterium.id/asset/image/bg-image8.png',
                 imageWidth: 460,
                 imageHeight: 200,
                 backdrop: `rgba(0,0,0,0.8)`,
                 html:'Life Moss adalah moss yang masih hidup dan butuh perawatan, untuk memastikan anda jadi membeli atau tidak bisa dilihat terlebih dahulu di penjelasan tentang life moss pada link ini <a href="../../lifemoss">Tentang Life Moss</a> ',
                 imageAlt: 'Custom image',
-                allowEscapeKey:'false',
-                allowOutsideClick:'false',
                 confirmButtonText:'Mengerti',
                 confirmButtonColor:'#000000',
-                focusConfirm:'false'
+                focusConfirm:'false',
             })
-
-
         }
 
         $(window).on('scroll',function(){
