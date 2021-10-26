@@ -2,49 +2,49 @@
     <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="google-site-verification" content="gjL2k6VbqDn-WxSlVDqTYOwoBPpeJG-ufO4-gyu9Yvk" />
-
         <!--=============== BOXICONS ===============-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
         <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="../assets/css/styles.css">
+        <link rel="stylesheet" href="../../assets/css/styles.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 
-        <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="../../assets/img/favicon.ico" type="image/x-icon">
         <title>Planterium Indonesia</title>
     </head>
     <body>
         <!--=============== HEADER ===============-->
         <header class="header" id="header">
             <nav class="nav container">
-                <a href="https://planterium.id" class="nav__logo"><img src="../assets/img/logo.png" alt=""></a>
+                <a href="https://planterium.id" class="nav__logo"><img src="../../assets/img/logo.png" alt=""></a>
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="../index.html" class="nav__link">
+                            <a href="../../index.html" class="nav__link">
                                 <i class='bx bx-home-alt nav__icon'></i>
                                 <span class="nav__name">Home</span>
                             </a>
                         </li>
                         
                         <li class="nav__item">
-                            <a href="../offmoss/" class="nav__link active-link">
+                            <a href="../../offmoss/" class="nav__link">
                                 <i class='bx bxl-spring-boot nav__icon'></i>
                                 <span class="nav__name">Offmoss</span>
                             </a>
                         </li>
 
                         <li class="nav__item">
-                            <a href="../bioart/" class="nav__link">
+                            <a href="../../bioart/" class="nav__link">
                                 <i class='bx bx-pyramid nav__icon'></i>
                                 <span class="nav__name">Bio.Art</span>
                             </a>
                         </li>
 
                         <li class="nav__item">
-                            <a href="../katalog/" class="nav__link">
+                            <a href="../../katalog" class="nav__link active-link">
                                 <i class='bx bx-briefcase-alt nav__icon'></i>
                                 <span class="nav__name">Katalog</span>
                             </a>
@@ -64,94 +64,96 @@
         </header>
 
         <main>
-            <!--=============== HOME ===============-->
-            <section class="container section section__height" id="home-offmoss">
-                <h2 class="section__title">Apa itu OFFMOSS?</h2>
-                <div class="content">
-                    <div class="content-image">
-                        <img src="../assets/img/gallery/offmoss.jpg" alt="planterium">
+            <!--=============== Swiper ===============-->
+            <section class="container section section__height">
+                <div class = "card-wrapper">
+                    <div class = "card">
+                      <!-- card left -->
+                      <div class = "product-imgs">
+                        <div class = "img-display">
+                          <div class = "img-showcase">
+                            <img src = "../../assets/img/gallery/andaru bulan tipe 2.jpg" alt = "shoe image">
+                            <img src = "../../assets/img/gallery/andaru bulan tipe 2.1.jpg" alt = "shoe image">
+                            <img src = "../../assets/img/gallery/andaru bulan tipe 2.jpg" alt = "shoe image">
+                            <img src = "../../assets/img/gallery/andaru bulan tipe 2.1.jpg" alt = "shoe image">
+                          </div>
+                        </div>
+                        <div class = "img-select">
+                          <div class = "img-item">
+                            <a href = "#" data-id = "1">
+                                <img src = "../../assets/img/gallery/andaru bulan tipe 2.jpg" alt = "shoe image">
+                            </a>
+                          </div>
+                          <div class = "img-item">
+                            <a href = "#" data-id = "2">
+                                <img src = "../../assets/img/gallery/andaru bulan tipe 2.1.jpg" alt = "shoe image">
+                            </a>
+                          </div>
+                          <div class = "img-item">
+                            <a href = "#" data-id = "3">
+                                <img src = "../../assets/img/gallery/andaru bulan tipe 2.jpg" alt = "shoe image">
+                            </a>
+                          </div>
+                          <div class = "img-item">
+                            <a href = "#" data-id = "4">
+                                <img src = "../../assets/img/gallery/andaru bulan tipe 2.1.jpg" alt = "shoe image">
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- card right -->
+                      <div class = "product-content">
+                        <h2 class = "product-title">Andaru Bulan 2</h2>
+                        <div class = "product-rating">
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star-half' ></i>
+                          <span>4.7(3)</span>
+                        </div>
+                  
+                        <div class = "product-prices">
+                          <p class = "last-price"><span>Rp.750K</span></p>
+                          <p class = "new-price"><span>Rp.470K</span></p>
+                        </div>
+                  
+                        <div class = "product-detail">
+                            <h2>tentang produk: </h2>
+                            <p>Andaru Bulan memiliki makna sebagai wahyu penerang, filosofi dari andaru bulan adalah berisikan sebuah pengharapan bagi siapa saja yang memilikinya selalu dapat mendatangkan inspirasi yang luar biasa.</p>
+                            <div class="bio-detail-wrap">
+                                <div class="bio-detail">
+                                    <div class="bio-detail-left">DIMENSI PRODUK</div>
+                                    <div class="bio-detail-center">:</div>
+                                    <div class="bio-detail-right">11 cm X 11 cm X 20 cm</div>
+                                </div>
+                                <div class="bio-detail">
+                                    <div class="bio-detail-left">VEGETASI TANAMAN</div>
+                                    <div class="bio-detail-center">:</div>
+                                    <div class="bio-detail-right">OFFMOSS, hasil preservasi di lab Planterium Indonesia</div>
+                                </div>
+                                <div class="bio-detail">
+                                    <div class="bio-detail-left">STRUKTUR</div>
+                                    <div class="bio-detail-center">:</div>
+                                    <div class="bio-detail-right">Photopolimer Resin yang dicetak dengan mesin 3D Print.</div>
+                                </div>
+                                <div class="bio-detail">
+                                    <div class="bio-detail-left">MADE IN</div>
+                                    <div class="bio-detail-center">:</div>
+                                    <div class="bio-detail-right">100% dibuat di Planterium Indonesia</div>
+                                </div>
+                            </div>  
+                        </div>
+                  
+                        <div class = "purchase-info">
+                            <a href="#"><i class='bx bxl-edge'></i><span> &nbsp; Etsy</span></a>
+                            <a href="https://tokopedia.link/RM64dJ0Stkb"><i class='bx bx-shopping-bag'></i><span> &nbsp; Tokopedia</span></a>
+                            <a href="https://api.whatsapp.com/send?phone=6282139059427&text=Hello%20admin%20Planterium%20Indonesia!"><i class='bx bxl-whatsapp'></i><span> &nbsp; Whatsapp</span></a>
+                        </div>
+                      </div>
                     </div>
-                    <div class="description">
-                        <p>Secara sederhananya dikenal sebagai terarium lumut yang telah diawetkan, semua produk planterium menggunakan bahan tanaman utama berupa OFFMOSS. Hal ini memungkinkan bagi pemilik produk planterium untuk dapat menikmati estetika lumut, botani, dan seni biologi tanpa perlu khawatir tentang pemeliharaannya.</p>
-                    </div>
-                </div>
-            </section>
-
-            <section class="container section section__height" id="about">
-                <div class="content">
-                    <div class="content-image">
-                        <img src="../assets/img/gallery/elok lestari 7.jpg" alt="planterium">
-                    </div>
-                    <div class="description">
-                        <p class="question">Apakah OFFMOSS itu tumbuhan asli?</p>
-                        <p class="answer">"OFFMOSS merupakan 100% lumut asli yang diawetkan di lab kami."</p>
-                        <p>Awalnya, lumut hidup yang kita peroleh dari hasil kerjasama dengan para penyadap getah pohon pinus kemudian kita olah melalui teknologi preservasi canggih hasil dari pengembangan kami untuk mengawetkan keindahan mereka. Kandungan air lumut dihilangkan pada tekanan rendah dan suhu di bawah nol untuk membekukan semua protein dan komponen biologisnya.Kemudian, setiap sel lumut diisi dengan pewarna klorofil, cairan tanaman, nutrisi, dan cairan pengawet.</p>
-                    </div>
-                    <div class="line"></div>
-                </div>
-                <div class="content">
-                    <div class="description">
-                        <p class="question">Apakah OFFMOSS hidup dan akan tumbuh?</p>
-                        <p class="answer">“Mereka TIDAK HIDUP meskipun terlihat hidup dan segar.”</p>
-                        <p>Setelah pengawetan, OFFMOSS secara biologis sudah tidak aktif karena semua aktivitas selulernya terhenti. Kami memperlakukan mereka dalam keadaan mati suri dan terawetkan dengan sempurna. Mereka bersih, bebas hama, tidak akan tumbuh selamanya tetapi juga tidak akan membusuk.</p>
-                    </div>
-                    <div class="line1"></div>
-                </div>
-                <div class="content">
-                    <div class="description">
-                        <p class="question">Apakah OFFMOSS aman?</p>
-                        <p class="answer">“Mereka aman untuk disentuh dan dicium”</p>
-                        <p>Selama langkah pasca-pemrosesan preservasi OFFMOSS kami, hanya komponen yang aman, ramah lingkungan, dan bio-degradable yang dipertahankan. Jangan ragu untuk menyentuhnya dengan tangan yang bersih. </p>
-                    </div>
-                    <div class="line"></div>
-                </div>
-                <div class="content">
-                    <div class="content-image">
-                        <img src="../assets/img/gallery/damar langit 5.jpg" alt="planterium">
-                    </div>
-                    <div class="description">
-                        <p class="question">Berapa lama OFFMOSS bisa terlihat segar dan bagus?</p>
-                        <p class="answer">“Secara teoritis beberapa dekade, pada percobaan kami saat ini telah menuju 2 tahun dan masih dalam keadaan segar dan bagus”</p>
-                        <p>Jika tetap tertutup atau jauh dari polutan potensial seperti debu dan air, mereka terlihat cerah dan segar selama bertahun-tahun atau memudar sedikit setelah beberapa saat. Jika terus terpapar udara dan menyerap polutan dalam jumlah besar, mereka mungkin kehilangan kelembutan dan kesegarannya.</p>
-                    </div>
-                    <div class="line1"></div>
-                </div>
-                <div class="content">
-                    <div class="description">
-                        <p class="question">Apakah saya perlu menyiram OFFMOSS?</p>
-                        <p class="answer">"Tidak, dan jangan pernah melakukan hal itu."</p>
-                        <p>Dirancang untuk menjadi tumbuhan preservasi tanpa Pemeliharaan, jika Anda menyiramnya, air akan menggantikan nutrisi & pengawet lumut sehingga secara signifikan mengurangi umur keseluruhannya.</p>
-                    </div>
-                    <div class="line"></div>
-                </div>
-                <div class="content">
-                    <div class="description">
-                        <p class="question">Apakah OFFMOSS membutuhkan cahaya?</p>
-                        <p class="answer">“Cahaya hanya untuk tujuan estetika”</p>
-                        <p>Karena OFFMOSS tidak lagi melakukan fotosintesis untuk membuat makanan, mereka tidak membutuhkan cahaya. Akan tetapi, cahaya yang cukup membantu mengurangi kemungkinan pertumbuhan jamur, karena jamur suka tumbuh di sekitar ruang yang hangat, lembab, dan gelap.</p>
-                    </div>
-                    <div class="line1"></div>
-                </div>
-                <div class="content">
-                    <div class="content-image">
-                        <img src="../assets/img/gallery/cakra citra 7.jpg" alt="planterium">
-                    </div>
-                    <div class="description">
-                        <p class="question">Bisakah saya membiarkan OFFMOSS terkena sinar matahari?</p>
-                        <p class="answer">“Hindari sinar matahari langsung”</p>
-                        <p>JANGAN memaparkannya ke sinar matahari langsung. Paparan sinar UV yang kuat dapat menurunkan integritas seluler pada OFFMOSS. Namun, jika terkena sinar matahari untuk sesekali waktu tidak masalah.</p>
-                    </div>
-                    <div class="line"></div>
-                </div>
-                <div class="content">
-                    <div class="description">
-                        <p class="question">Apakah saya perlu menjaga terarium OFFMOSS tertutup rapat?</p>
-                        <p class="answer">"Tidak perlu."</p>
-                        <p>Wadah terarium kaca dirancang untuk melindungi OFFMOSS di dalamnya dari paparan langsung kontaminan semacam debu atau tetesan air. Jika Anda lupa menutup kaca dengan rapat setelah melihat, itu tidak akan membahayakan OFFMOSS.</p>
-                    </div>
-                    <div class="line1"></div>
-                </div>
-            </section>
+                  </div>
+            </section>            
         </main>
 
         <!--=============== Footer ===============-->
@@ -162,7 +164,7 @@
                         
                         <div class="about-us box" data-aos="fade-right" data-aos-duration="1500">
                             <div class="footer-brand">
-                                <img src="../assets/img/logo1.png" alt="logo">
+                                <img src="../../assets/img/logo1.png" alt="logo">
                                 <h2>Planterium Indonesia</h2>
                             </div>
                             <div class="footer-content">
@@ -241,6 +243,18 @@
         </footer>
 
         <!--=============== MAIN JS ===============-->
-        <script src="../assets/js/main.js"></script>
+        <script src="../../assets/js/main.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+              slidesPerView: 1,
+              spaceBetween: 30,
+              loop: true,
+              autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+              },
+            });
+          </script>
     </body>
 </html>

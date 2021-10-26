@@ -1,309 +1,258 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="gjL2k6VbqDn-WxSlVDqTYOwoBPpeJG-ufO4-gyu9Yvk" />
-    <title>Planterium Indonesia</title>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="google-site-verification" content="gjL2k6VbqDn-WxSlVDqTYOwoBPpeJG-ufO4-gyu9Yvk" />
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="asset/image/favicon.ico" type="image/x-icon">
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
 
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <!-- <script src="https://instafeed.assets.pxlecdn.com/assets/pixlee_widget_1_0_0.js"></script> -->
+        <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+        <title>Planterium Indonesia</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="https://planterium.id" class="nav__logo"><img src="assets/img/logo.png" alt=""></a>
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link active-link">
+                                <i class='bx bx-home-alt nav__icon'></i>
+                                <span class="nav__name">Home</span>
+                            </a>
+                        </li>
+                        
+                        <li class="nav__item">
+                            <a href="offmoss/" class="nav__link">
+                                <i class='bx bxl-spring-boot nav__icon'></i>
+                                <span class="nav__name">Offmoss</span>
+                            </a>
+                        </li>
 
-    <script type="text/javascript">
-       
+                        <li class="nav__item">
+                            <a href="bioart/" class="nav__link">
+                                <i class='bx bx-pyramid nav__icon'></i>
+                                <span class="nav__name">Bio.Art</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="katalog/" class="nav__link">
+                                <i class='bx bx-briefcase-alt nav__icon'></i>
+                                <span class="nav__name">Katalog</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="https://api.whatsapp.com/send?phone=6282139059427&text=Hello%20admin%20Planterium%20Indonesia!" target="_blank" class="nav__link">
+                                <i class='bx bxl-whatsapp nav__icon'></i>
+                                <span class="nav__name">Whatsapp</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- <img src="assets/img/perfil.png" alt="" class="nav__img"> -->
+            </nav>
+        </header>
+
+        <main>
+            <!--=============== HOME ===============-->
+            <section class="container section section__height" id="home">
+                <h2 class="section__title">Your Own Urban Jungle</h2>
+                <div class="content">
+                    <div class="content-image">
+                        <img src="assets/img/gallery/all.jpg" alt="planterium">
+                    </div>
+                    <div class="description">
+                        <p>Melalui Planterium, kami bertujuan untuk menghadirkan inovasi produk yang elegan, minimalis dan futuristik untuk melengkapi keindahan ruangan anda.</p>
+                        <p>Apa yang akan anda dapatkan dari kami adalah sebuah produk yang dapat membawakan nuansa hutan hujan tropis yang hijau dan segar dihadapan anda. Sebagai hasil dari kerja keras, riset panjang dan perpaduan antara sains dengan seni dalam sebuah produk.</p>
+                        <p>Kami memaksimalkan antara latar belakang kami yang kuat dalam sains, seni, dan teknologi dengan berfokus pada pemanfaatan tanaman dari genus Bryophyta ( moss darat ) yang kita inovasikan menjadi OFFMOSS sebagai objek utamanya. Kecintaan akan keindahan alam dan hasrat kami untuk menghadirkan biomorfisme dalam tata ruang akan menjadi sebuah hal baru untuk dinikmati keindahannya.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== ABOUT ===============-->
+            <section class="container section section__height" id="about">
+                <h2 class="section__title">Apa itu OFFMOSS</h2>
+                <div class="content">
+                    <div class="content-image">
+                        <img src="assets/img/gallery/offmoss.jpg" alt="planterium">
+                    </div>
+                    <div class="description">
+                        <p>OFFMOSS adalah istilah untuk semua bahan tanaman utama yang kami gunakan untuk keseluruhan koleksi produk terrarium kami.</p>
+                        <p>Lumut yang diawetkan dari lab kami ini dikenal sebagai OFFMOSS. Mereka adalah 100% tanaman asli yang setiap sel-selnya telah terdeaktivasi secara biologi sehingga sudah tidak dapat tumbuh dan tidak memerlukan perawatan tapi akan tetap terlihat segar selama bertahun-tahun.</p>
+                        <a href="offmoss/" class="animated-button thar-three">Pelajari Selengkapnya</a> 
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== SKILLS ===============-->
+            <section class="container section section__height" id="skills">
+                <h2 class="section__title">Perawatan OFFMOSS</h2>
+                <div class="content">
+                    <div class="content-image">
+                        <img src="assets/img/gallery/andaru bulan 6.jpg" alt="planterium">
+                    </div>
+                    <div class="description">
+                        <p>OFFMOSS kami hampir tidak membutuhkan perawatan.</p>
+                        <p>Cukup hindarkan OFFMOSS dari paparan sinar matahari langsung dalam jangka waktu yang lama, suhu panas ekstrim, kelembaban tinggi dan air.</p>
+                        <a href="offmoss/offmoss-care/" class="animated-button thar-three">Pelajari Selengkapnya</a> 
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== PORTFOLIO ===============-->
+            <section class="container section section__height" id="portfolio">
+                <h2 class="section__title">BioArt . Bioarchitecture . Biomorphism</h2>
+                <div class="content">
+                    <div class="content-image">
+                        <img src="assets/img/gallery/cakra citra 7.jpg" alt="planterium">
+                    </div>
+                    <div class="description">
+                        <p>Melalui Bioarchitecture & Biomorphism, kami menerapkan kompleksitas dan keterkaitan yang sangat erat dari mekanisme ilmiah dengan setiap sudut keindahan alam asli dari Indonesia.</p>
+                        <p>Melalui keunikan dari setiap sudut dan lekukan desain produk Planterium, memungkinkan bagi setiap owner produk Planterium merasa semakin terhubung dengan alam dan ruang hidup di sekitarnya sehingga bisa merasakan pengalaman visual yang belum pernah dinikmati sebelumnya. </p>
+                        <a href="bioart/" class="animated-button thar-three">Product Collections</a> 
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== CONTACTME ===============-->
+            <section class="container section section__height" id="contactme">
+                <h2 class="section__title">Kunjungi Toko Kami</h2>
+                <div class="content">
+                    <div class="content-image">
+                        <img src="assets/img/gallery/elok lestari 5.jpg" alt="planterium">
+                    </div>
+                    <div class="description">
+                        <a href="katalog/" class="animated-button thar-three">Katalog Produk</a> 
+                    </div>
+                </div>
+            </section>
         
-        // crisp chat
-        window.$crisp=[];
-        window.CRISP_WEBSITE_ID="a65250f1-29a2-4ee7-90e2-637aeef4e64f";
-		(function(){
-			d=document;s=d.createElement("script");
-			s.src="https://client.crisp.chat/l.js";
-			s.async=1;d.getElementsByTagName("head")[0].appendChild(s);
-        })();
 
-        $(window).on('scroll',function(){
-            if($(window).scrollTop()){
-                $('nav').addClass('black');
-            }
-            else{
-                $('nav').removeClass('black');
-            }
-        })
-        $(document).ready(function(){
-            $('nav ul li a').click(function() {
-                $('nav ul li a').removeClass('active');
-                $(this).addClass('active');
-            });
-        });
-        $(document).ready(function(){
-            $('nav .logo img').click(function(){
-                $('nav ul li a').removeClass('active');
-                $(this).addClass('active');
-            });
-        });
-
-    </script>
-</head>
-<body>
-    <nav>
-        <div class="nav-container">
-            <div class="logo">
-                <a href="https://planterium.id">
-                    <img src="asset/image/logos.png" alt="brand-image">
-                </a>
-            </div>
-            <ul>
-                <li><a href="https://www.whatsapp.com/catalog/6282139059427?app_absent="target="_blank" >shop</a></li>
-                <li><a href="offmoss" >off-moss</a></li>
-                <li><a href="lifemoss" >life-moss</a></li>
-                <li><a href="katalog" >katalog</a></li>                
-                <li><a href="faq" >faq</a></li>
-            </ul>
-
-            <div class="menu-toggle">
-                <input type="checkbox">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </nav>
-    <!-- hero -->
-    <section class="sec1" id="home">
-        <div class="title" data-aos="fade-down" data-aos-duration="3000"> 
-            <h1>PLANTERIUM</h1>    
-        </div>
-        <span data-aos="fade-right" data-aos-duration="3000"></span>
-        <div class="subtitle" data-aos="fade-up" data-aos-duration="3000">
-            <h1> &sdot; Your Own Urban Jungle &sdot;</h1>        
-        </div>
-        <div class="arrow">
-            <a href="https://planterium.id#planterium_id" title="Tentang Moss"><img src="/asset/image/arrow-bottom1.png" alt="Planterium Indonesia adalah brand produk mossarium pertama di Indonesia yang berhasil memadukan antara seni terrarium dan sains berupa moss, dengan memanfaatkan moss dari genus dicranum untuk produk lifemoss dan beberapa varian genus moss untuk produk offmoss."></a>
-        </div>
-    </section>
-    <!-- PLANTERIUM -->
-    <section id="planterium_id">
-        <div class="container">
-            <div class="box-moss">
-                <div class="figure" data-aos="fade-up" data-aos-duration="1000">
-                    <img src="asset/image/laevis.png">
-                </div>
-                <div class="content" data-aos="fade-right" data-aos-duration="1000">
-                    <h1>Laevis Off-Moss</h1>
-                    <p>Laevis ‘OFFMOSS’ menerapkan prinsip desain minimalis yang dipadukan dengan kombinasi luar biasa dari alam antara moss hijau segar dengan motif artistik kayu ornamen mossarium, akan melengkapi keindahan di ruangan anda.</p>
-                    <p>-</p>
-                    <p>Size: Medium, 20cm x 10cm x 14cm</p>   
-                    <a href="page/katalog-lifemoss.html" target="_self">
-                        <button class="button-offmoss">Shop Laevis</button>
-                    </a>
-                </div>
-            </div>
-        </div>            
-    </section>
-    <!-- lifemoss -->
-    <section id="dormantmoss">
-        <div class="box-moss">
-            <div class="video-moss" data-aos="fade-up" data-aos-duration="1000">
-                <div class="katalog-image-list">
-                    <div class="video-moss1">
-                    <video loop autoplay muted>
-                        <source src="asset/video/dorman.mp4" type="video/mp4">
-                    </video>   
+            <section class="container section section__height" id="#">
+                <h2 class="section__title">100% Handmade</h2>
+                <div class="content">
+                    <div style="display: flex; justify-content: center;" class="content-image">
+                        <img src="assets/img/gallery/tera.jpg" alt="planterium" style="width: 60%;">
+                    </div>
+                    <div class="description">
+                        <p>Didukung dengan tenaga profesional yang kami miliki, Planterium Indonesia telah memiliki reputasi sebagai salah satu pengrajin kaca geometris minimalis & futuristik terbaik.</p>
+                        <p>Kami telah berpengalaman dalam mendesain dan membuat karya seni kaca geometris berkualitas tinggi sejak tahun 2018 dan masih terus selalu berinovasi hingga kini dan nanti untuk dapat benar-benar berusaha dalam menggapai kesempurnaan dalam mewujudkan seni kaca yang unik menjadi kenyataan.</p>
+                        <a href="katalog/" class="animated-button thar-three">Product Collections</a> 
                     </div>
                 </div>
-                <div class="katalog-overlay1">
-                    <div class="text1">
-                        TEMUKAN LIFEMOSS SERIES DISINI
-                        <br>
-                        <a href="/katalog/katalog-lifemoss" target="_self">
-                            <button class="button-lifemoss">KATALOG</button>
-                        </a>
+            </section>
+
+            <section class="container section section__height" id="#">
+                <h2 class="section__title">Our Story</h2>
+                <div class="content">
+                    <div class="content-image">
+                        <img src="assets/img/gallery/damar langit 5.jpg" alt="planterium">
+                    </div>
+                    <div class="description">
+                        <p>Lumut yang banyak tumbuh di perkebunan pinus, selama ini seringkali dianggap tidak bermanfaat, tidak mempunyai nilai ekonomis bahkan cenderung dianggap sebagai pengganggu dan dibuang sia-sia karena seringkali mengganggu pada saat proses penyadapan getah pohon pinus. Berangkat dari permasalahan tersebut, kami ingin memberikan solusi yang inovatif sehingga dapat memberikan efek domino yang bisa memberikan manfaat bagi banyak lapisan masyarakat.</p>
+                        <p>Hadirnya dekorasi baru di dalam rumah yang identik dengan alam, dapat direpresentasikan dengan nuansa hijau segar dan terdapat lumut-lumut yang menempel di setiap permukaan objeknya, menjadi salah satu pilihan sebagai sarana rekreasi yang bisa dinikmati setiap waktu.</p>
+                        <p>Setelah menyelesaikan proses riset panjang sebagai upaya kami untuk dapat memadukan antara seni minimalis dan futuristik yang identik dengan selera design masyarakat masa kini dengan memaksimalkan teknologi terbaru berupa teknologi printer 3-Dimensi, kemudian dipadukan dengan sentuhan sains berupa teknik preservasi tanaman yang telah berhasil kami kembangkan. Akhirnya, kami berhasil menghadirkan sebuah solusi yang sangat inovatif.</p>
+                        <p>Melalui Planterium, kami dapat merubah tumbuhan Bryophyta (moss darat/lumut) yang tumbuh melimpah di perkebunan pinus daerah dataran tinggi yang selama ini dianggap tidak bermanfaat, tidak mempunyai nilai ekonomis, bahkan sering dibuang sia-sia oleh masyarakat sekitar, sekarang ini dapat kita inovasikan menjadi produk yang memiliki nilai seni sekaligus kebermanfaatan untuk mengatasi permasalahan stres masyarakat perkotaan dan juga sebagai sumber ekonomi baru bagi masyarakat penyadap getah pinus di dataran tinggi.</p>
                     </div>
                 </div>
-            </div>
-        </div>    
-    </section>
-    <section id="offmoss">
-        <div class="container">
-            <div class="box-moss">
-                <div class="content" data-aos="fade-right" data-aos-duration="1000">
-                    <h1>Pennata Off-Moss</h1>
-                    <p>Pennata ‘OFFMOSS’ Terinspirasi dari konsep keselarasan dalam sebuah desain rumah yang dikombinasikan dengan konsep keseimbangan dari alam, akan menciptakan kesan luar biasa dari berbagai perspektif bagi siapapun yang memandangnya.</p>
-                    <p>-</p>
-                    <p>Size: Medium, 22cm x 10cm x 14cm</p>   
-                    <a href="page/katalog-lifemoss.html" target="_self">
-                        <button class="button-offmoss">Shop Pennata</button>
-                    </a>
-                </div>
-                <div class="figure" data-aos="fade-up" data-aos-duration="1000">
-                    <img src="asset/image/pennata.png">
-                </div>
-            </div>
-        </div>            
-    </section>
-    <!-- mini series -->
-    <section id="dormanmoss">
-        <div class="box-moss">
-            <div class="content1">
-                Mini Series Off Moss - Thidia & Grimmia
-                <p>Tetap dengan mengusung konsep minimalis sekaligus memberikan sudut perspektif lain dengan dasar unsur-unsur kuboid yang dipadukan dengan potongan kecil keindahan dari hutan hujan tropis yang menyejukkan</p>
-                <div class="button-miniseries">
-                    <a href="page/katalog-lifemoss.html" target="_self">
-                        <button class="button-lifemoss1">Shop Thidia</button>
-                    </a>
-                    <a href="page/katalog-lifemoss.html" target="_self">
-                        <button class="button-lifemoss1">Shop Grimmia</button>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="planterium_id">
-        <div class="container">
-            <div class="box-moss">
-                <div class="figure" data-aos="fade-up" data-aos-duration="1000">
-                    <img src="asset/image/hypnum.png">
-                </div>
-                <div class="content" data-aos="fade-right" data-aos-duration="1000">
-                    <h1>Hypnum Off-Moss</h1>
-                    <p>Hypnum ‘OFFMOSS’ memadukan unsur sudut segitiga yang tajam dengan potongan segiempat yang presisi dan penambahan moss di kedua sisinya, sukses membawakan potongan keindahan hutan hujan tropis di hadapan anda.</p>
-                    <p>-</p>
-                    <p>Size: Medium, 20cm x 12cm x 14cm</p>   
-                    <a href="page/katalog-lifemoss.html" target="_self">
-                        <button class="button-offmoss">Shop Hypnum</button>
-                    </a>
-                </div>
-            </div>
-        </div>            
-    </section>
-    <!-- SHOP -->
-    <section id="shop">
-        <div class="container">
-            <div class="kotak" >
-                <!-- <div class="box-shop1" data-aos="fade-up" data-aos-duration="2000">
-                    <h1>SHOPEE</h1>
-                    <a href="https://www.shoppe.com/planterium_id" target="_blank">
-                        <img src="asset/image/shopee1.png" alt="logo shopee"><br>
-                        <button class="button-shopee">Visit Our Store</button>
-                    </a>
-                </div> -->
-                <!-- <div class="box-shop2" data-aos="fade-up" data-aos-duration="2000">
-                    <h1>TOKOPEDIA</h1>
-                    <a href="https://www.tokopedia.com/planterium" target="_blank">
-                        <img src="asset/image/tokped.png" alt="logo tokopedia"><br>
-                        <button class="button-tokped">Visit Our Store</button>
-                    </a>
-                </div> -->
-                <div class="box-shop4" data-aos="fade-up" data-aos-duration="1000">
-                    <h1>WHATSAPP</h1>
-                    <a href="https://www.whatsapp.com/catalog/6282139059427?app_absent=" target="_blank">
-                        <img src="asset/image/whatsapp.png" alt="logo whatsapp"><br>
-                        <button class="button-wa">Discuss With Us</button>
-                    </a>
-                </div>    
-            </div>    
-        </div>
-    </section>
-    <!-- igFeed -->
-    <section id="instagramFeed" data-aos="fade-up" data-aos-duration="1500">
-            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-            <div class="elfsight-app-ffac9a8e-df10-4c16-96e7-270a11348c14"></div>
-    </section>
-    <!-- FOOTER -->
-    <hr size="2px" color="white">
-    <footer> 
-        <!-- <div class="container"> -->
-            <div class="footer-wrap">
-                
-                <div class="about-us box" data-aos="fade-right" data-aos-duration="1500">
-                    <div class="footer-brand">
-                        <img src="../asset/image/logo.png" alt="logo">
-                        <h2>Planterium Indonesia</h2>
-                    </div>
-                    <div class="footer-content">
-                        <p>Planterium Indonesia adalah brand produk mossarium pertama di Indonesia yang berhasil memadukan antara seni terrarium dan sains berupa moss, dengan memanfaatkan moss dari genus dicranum untuk produk lifemoss dan beberapa varian genus moss untuk produk offmoss.</p>
-                        <div class="social-media">
-                            <!-- <a href="https://facebook.com/planterium_id" target="_blank"><span class="fab fa-facebook-f"></a> -->
-                            <a href="htpps://twitter.com/planterium_id" target="_blank"><span class="fab fa-twitter"></span></a>
-                            <a href="https://instagram.com/planterium.id" target="_blank"><span class="fab fa-instagram"></span></a>
-                            <a href="https://www.youtube.com/channel/UC5S_h6zpqMjeftZo0S_vWJQ" target="_blank"><span class="fab fa-youtube"></span></a>
-                            <!-- <a href="https://line.me/ti/p/~planterium" target="_blank"><span class="fab fa-line"></span></a> -->
-                        </div>
-                    </div>
-                </div>
+            </section>
+        </main>
 
-                <div class="address box" data-aos="fade-up" data-aos-duration="1300">
-                    <h2>Address</h2>
-                    <div class="footer-content">
-                        <div class="place">
-                            <span class="fas fa-map-marker-alt"></span>
-                            <span class="text">Pare &sdot; Kediri &sdot; East Java</span>
-                        </div>
-                        <div class="phone">
-                            <span class="fas fa-phone-alt"></span>
-                            <span class="text">+62-821-3905-9427</span>
-                        </div>
-                        <div class="email">
-                            <span class="fas fa-envelope"></span>
-                            <span class="text">planteriumstorage@gmail.com</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="contact-us box" data-aos="fade-right" data-aos-duration="1000">
-                    <h2>Contact us</h2>
-                    <div class="footer-content">
-                        <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
-                        action="https://script.google.com/macros/s/AKfycbzM9mvahZz3UeYULNwY90bsJuMAHzGqkjbAlSMQY32GDHxOoN0/exec  ">
-                            <!-- change the form action to your script url -->
-
-                            <div class="form-elements">
-                            <!-- <fieldset class="pure-group"> -->
-                                <label for="name">Name * </label>
-                                <input id="name" name="name" placeholder="Nama anda" />
-                            <!-- </fieldset> -->
-
-                            <!-- <fieldset class="pure-group"> -->
-                                <label for="email"> Email *</label>
-                                <input id="email" name="email" type="email" value=""
-                                required placeholder="your.name@email.com"/>
-                            <!-- </fieldset> -->
-
-                            <!-- <fieldset class="pure-group"> -->
-                                <label for="message">Message * </label>
-                                <textarea id="message" name="message" rows="2"
-                                placeholder="Hallo admin..."></textarea>
-                            <!-- </fieldset> -->
-
-
-                                <div class="btn">
-                                    <button >Send</button>
-                                </div>
-
+        <!--=============== Footer ===============-->
+        <footer>
+                <!-- <div class="container"> -->
+                    <div class="footer-wrap container">
+                        
+                        <div class="about-us box" data-aos="fade-right" data-aos-duration="1500">
+                            <div class="footer-brand">
+                                <img src="assets/img/logo1.png" alt="logo">
+                                <h2>Planterium Indonesia</h2>
                             </div>
-
-                        </form>
-                    </div>
-                </div>
-
-            </div>    
-        <!-- </div> -->
+                            <div class="footer-content">
+                                <p>Planterium Indonesia adalah brand produk mossarium pertama di Indonesia yang berhasil memadukan antara seni terrarium dan sains dengan memanfaatkan moss yang menjadi hama bagi petani karet pinus.</p>
+                                <div class="social-media">
+                                    <!-- <a href="https://facebook.com/planterium_id" target="_blank"><span class="fab fa-facebook-f"></a> -->
+                                    <a href="htpps://twitter.com/planterium_id" target="_blank"><span class='bx bxl-twitter' ></span></a>
+                                    <a href="https://instagram.com/planterium.id" target="_blank"><span class='bx bxl-instagram' ></spana></a>
+                                    <a href="https://www.youtube.com/channel/UC5S_h6zpqMjeftZo0S_vWJQ" target="_blank"><span class="bx bxl-youtube"></span></a>
+                                    <!-- <a href="https://line.me/ti/p/~planterium" target="_blank"><span class="fab fa-line"></span></a> -->
+                                </div>
+                            </div>
+                        </div>
         
-        <div class="footer-bottom">
-              <span>-<a href="https://planteriumindonesia.com">Planterium Indonesia</a> <b>|</b> &copy; 2020- </span> 
-              <span>-All rights reserved.-</span>
-        </div>
-    </footer>
-    <script data-cfasync="false" type="text/javascript" src="js/script.js">
-    </script>
-</body>
+                        <div class="address box" data-aos="fade-up" data-aos-duration="1300">
+                            <h2>Address</h2>
+                            <div class="footer-content">
+                                <div class="place">
+                                    <span class="bx bx-map-pin"></span>
+                                    <span class="text">Pare &sdot; Kediri &sdot; East Java</span>
+                                </div>
+                                <div class="phone">
+                                    <span class='bx bxl-whatsapp'></span>
+                                    <span class="text">+62-821-3905-9427</span>
+                                </div>
+                                <div class="email">
+                                    <span class="bx bx-envelope"></span>
+                                    <span class="text">planteriumstorage@gmail.com</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-us box" data-aos="fade-right" data-aos-duration="1000">
+                            <h2>Contact us</h2>
+                            <div class="footer-content">
+                                <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
+                                action="https://script.google.com/macros/s/AKfycbzM9mvahZz3UeYULNwY90bsJuMAHzGqkjbAlSMQY32GDHxOoN0/exec  ">
+                                    <!-- change the form action to your script url -->
+        
+                                    <div class="form-elements">
+                                    <!-- <fieldset class="pure-group"> -->
+                                        <label for="name">Name * </label>
+                                        <input id="name" name="name" placeholder="Nama anda" />
+                                    <!-- </fieldset> -->
+        
+                                    <!-- <fieldset class="pure-group"> -->
+                                        <label for="email"> Email *</label>
+                                        <input id="email" name="email" type="email" value=""
+                                        required placeholder="your.name@email.com"/>
+                                    <!-- </fieldset> -->
+        
+                                    <!-- <fieldset class="pure-group"> -->
+                                        <label for="message">Message * </label>
+                                        <textarea id="message" name="message" rows="2"
+                                        placeholder="Hallo admin..."></textarea>
+                                    <!-- </fieldset> -->
+        
+        
+                                        <div class="btn">
+                                            <button >Send</button>
+                                        </div>
+        
+                                    </div>
+        
+                                </form>
+                            </div>
+                        </div>
+        
+                    </div>    
+                <!-- </div> -->
+                
+                <div class="footer-bottom">
+                      <span><a href="https://planteriumindonesia.com">Planterium Indonesia</a> <b>|</b> &copy; 2020 </span> 
+                      <!-- <span>-All rights reserved.-</span> -->
+                </div>
+        </footer>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
