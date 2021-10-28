@@ -595,7 +595,7 @@ footer .footer-bottom{
 .product-details h4{
   font-weight: 400;
   display: block;
-  color: black;
+  color: black!important;
   text-decoration: none;
   transition: 0.3s;
   padding-bottom: 5px;
