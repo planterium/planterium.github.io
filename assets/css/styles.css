@@ -571,6 +571,10 @@ footer .footer-bottom{
   grid-gap: 10px;
 }
 
+.product-wraper a{
+  text-decoration: none;
+}
+
 .product-card {
   width: auto;
   position: relative;
@@ -588,14 +592,15 @@ footer .footer-bottom{
   padding: 5px;
 }
 
-.product-details h4 a {
+.product-details h4{
   font-weight: 400;
   display: block;
-  color: #272727;
+  color: black;
   text-decoration: none;
   transition: 0.3s;
   padding-bottom: 5px;
-  font-size: 1rem;
+  font-size: .8rem;
+  font-family: 'Poppins',sans-serif;
 }
 
 .product-bottom-details {
@@ -628,14 +633,14 @@ footer .footer-bottom{
   margin-top: 10px;
 }
 
-.product-links a {
+.product-links i {
   display: inline-block;
   color: #000000;
   transition: 0.3s;
   font-size: 1.5rem;
 }
 
-.product-links a:hover {
+.product-links i:hover {
   color: #fbb72c;
 }
 
