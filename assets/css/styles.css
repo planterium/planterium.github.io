@@ -633,14 +633,14 @@ footer .footer-bottom{
   margin-top: 10px;
 }
 
-.product-links i {
+.product-links{
   display: inline-block;
   color: #000000;
   transition: 0.3s;
   font-size: 1.5rem;
 }
 
-.product-links i:hover {
+.product-links:hover {
   color: #fbb72c;
 }
 
