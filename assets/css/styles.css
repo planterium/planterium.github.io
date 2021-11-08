@@ -263,25 +263,48 @@ footer{
     background-color:#000000;
     font-family: 'Poppins',sans-serif;
     color: white;
+    font-size: .8rem;
 }
 .footer-wrap{
     display: flex;
     flex-direction: column;
-    /* padding: 50px 50px ; */
+    padding: 25px ;
 }
 .footer-wrap .box{
     flex-basis: 50%;
     padding: 20px 0;
 }
 
+.useful-link-wrap{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.useful-link-wrap .link{
+  display: flex;
+  flex-direction: column;
+}
+
+.useful-link-wrap .link a{
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+.useful-link-wrap .link a:hover{
+  color: rgb(0, 193, 61);
+  transition: .5s;
+}
+
 .box h2{
     font-size: 1.125rem;
-    font-weight: 600;
-    text-transform: uppercase;
+    font-weight: 500;
+    /* text-transform: uppercase; */
 }
 .box .footer-content{
     margin: 20px 0 0 0;
     position: relative;
+    padding-top: 20px;
 }
 .box .footer-content:before{
     position: absolute;
@@ -310,6 +333,10 @@ footer{
     padding-right: 10px ;
 }
 
+.place{
+  margin: 3rem 1rem 1rem 0 ;
+}
+
 .about-us .footer-content p{
     text-align: left;
 }
@@ -334,9 +361,10 @@ footer{
     background: #ededed;
     color: rgb(57, 57, 57);
 }
-.address .footer-content .fas{
-    font-size: 1.4375rem;
-    background: #1a1a1a;
+.place .bx,
+.address .footer-content .bx{
+    font-size: 1.5rem;
+    /* background: #1a1a1a; */
     height: 45px;
     width: 45px;
     line-height: 45px;
@@ -345,12 +373,13 @@ footer{
     transition: 0.3s;
     cursor: pointer;
 }
-.address .footer-content .fas:hover{
+
+.address .footer-content .bx:hover{
     background: #ededed;
     color: black;
 }
 .address .footer-content .text{
-    font-size: 1.0625rem;
+    /* font-size: 1.0625rem; */
     font-weight: 500;
     padding-left: 10px;
 }
@@ -367,8 +396,8 @@ footer{
     margin-bottom: 10px;
 }
 .contact-us form input, .contact-us form #message{
-    width: 97%;
-    font-size: 1.0625rem;
+    width: 100%;
+    font-size: .8rem;
     background: #151515;
     padding-left: 10px;
     border: 1px solid #616161;
@@ -886,11 +915,14 @@ img{
   .footer-wrap{
     display: flex;
     flex-direction: row;
-    max-width: 70%;
-    /* flex-direction: column; */
-
-    /* padding: 50px 50px ; */
+    max-width: 100%;
   }
+
+  .footer-wrap .box{
+      flex-basis: 50%;
+      padding: 20px;
+  }
+
   .about-us .footer-content p{
     text-align: left;
     padding-right: 40px;
