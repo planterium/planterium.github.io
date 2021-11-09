@@ -257,6 +257,10 @@ a.animated-button.thar-three:before {
 }
 
 /*==================== TESTIMONIAL ====================*/
+.testimonial{
+  margin-top: 50px;
+}
+
 .testimonial-wrapper{
   border-radius: 10px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -272,6 +276,7 @@ a.animated-button.thar-three:before {
     justify-content: center;
     align-items: center;
     font-family: 'Poppins',sans-serif;
+    color: black;
 }
 
 .testimonial__data{
@@ -299,6 +304,8 @@ a.animated-button.thar-three:before {
 .testimonial__description{
     margin-bottom: 2.5rem;
     padding: 1rem;
+    color: black;
+    font-size: .9rem;
 }
 
 .testimonial__icon-star{
