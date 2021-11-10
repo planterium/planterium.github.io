@@ -74,6 +74,13 @@ img {
   margin-bottom: 3rem;
 }
 
+.term-title{
+  font-size: var(--h1-font-size);
+  color: var(--primary-black);
+  font-family: 'Poppins',sans-serif;
+  font-weight: 400;
+}
+
 .section__title {
   font-size: var(--h1-font-size);
   color: var(--title-color);
@@ -102,6 +109,13 @@ img {
 
 .bio-image img{
   width: 50vw;
+}
+
+.description ol{
+  color: var(--primary-black);
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 .description p{
@@ -647,12 +661,12 @@ footer .footer-bottom{
 }
 
 .katalog-title{
-  font-size: var(--h1-font-size);
+  font-size: 1.25rem;
   color: var(--primary-black);
   text-align: left;
   margin-bottom: 1rem;
   font-family: 'Poppins',sans-serif;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .product-wraper{
